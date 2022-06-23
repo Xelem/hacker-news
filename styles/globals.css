@@ -53,8 +53,10 @@ select {
 
 .news-card {
   width: 300px;
+  height: 340px;
   border: 2px solid coral;
   margin-bottom: 15px;
+  position: relative;
 }
 
 .news-card p {
@@ -65,6 +67,12 @@ select {
 .info {
   display: flex;
   margin: 5px 10px;
+}
+
+.info p {
+  position: absolute;
+  top: 290px;
+  right: 10px;
 }
 
 .news {
@@ -78,6 +86,8 @@ select {
   background-color: coral;
   border: none;
   border-radius: 3px;
+  position: absolute;
+  top: 290px;
 }
 
 .news-card button:hover {
