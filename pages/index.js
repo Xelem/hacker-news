@@ -5,31 +5,10 @@ import Head from "next/head";
 import News from "../comps/News";
 import styles from "../styles/Home.module.css";
 
-export const getStaticProps = async () => {
-  const res = await axios.get(
-    "https://hn.algolia.com/api/v1/search_by_date?tags=front_page"
-  );
-  const data = await res.data;
-
-  return {
-    props: { news: data.hits },
-  };
-};
-
-export default function Home({ news }) {
+export default function Home() {
   const [baseUrl, setBaseUrl] = useState(
     "https://hn.algolia.com/api/v1/search_by_date?tags=front_page"
   );
-
-  // useEffect(() => {
-  //   const getData = async () => {
-  //     const res = await axios.get(baseUrl);
-  //     const data = await res.data;
-
-  //     console.log(data.hits);
-  //   };
-  //   getData();
-  // }, [baseUrl]);
 
   return (
     <div>
@@ -53,7 +32,7 @@ export default function Home({ news }) {
         </select>
       </div>
       <div className="content">
-        <News>{news}</News>
+        <News />
       </div>
     </div>
   );
