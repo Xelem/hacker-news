@@ -13,6 +13,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <title>Hacker News | Search</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
