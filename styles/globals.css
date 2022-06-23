@@ -26,10 +26,18 @@ body {
 }
 
 .content,
-.search-bar {
+.search {
   max-width: 960px;
   text-align: center;
   margin: auto;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-bar button {
+  height: 40px;
 }
 
 label {
@@ -82,15 +90,18 @@ select {
 }
 
 .news-card button {
-  padding: 10px 15px;
-  background-color: coral;
-  border: none;
-  border-radius: 3px;
   position: absolute;
   top: 290px;
 }
 
-.news-card button:hover {
+button {
+  padding: 10px 15px;
+  background-color: coral;
+  border: none;
+  border-radius: 3px;
+}
+
+button:hover {
   background: #fff;
   border: 1px solid coral;
 }

@@ -33,9 +33,20 @@ export default function Home({ news }) {
 
   return (
     <div>
-      <div className="search-bar">
+      <Head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+      </Head>
+      <div className="search">
         <label>Search</label>
-        <input type="text" />
+        <div className="search-bar">
+          <input type="text" />
+          <button>
+            <i className="fa fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
         <select>
           <option value="Date">Date</option>
           <option value="Popularity">Popularity</option>
