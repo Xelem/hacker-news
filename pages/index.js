@@ -7,17 +7,15 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [searchFilter, setSearchFilter] = useState("search_by_date?");
-  const [searchParam, setSearchParam] = useState("query");
+  const [searchParam, setSearchParam] = useState("tags");
   const [baseUrl, setBaseUrl] = useState(
     "https://hn.algolia.com/api/v1/search_by_date?tags=front_page"
   );
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("front_page");
   const setQueryUrl = () => {
     setBaseUrl(
       `https://hn.algolia.com/api/v1/${searchFilter}${searchParam}=${query}`
     );
-
-    console.log(baseUrl);
   };
 
   return (
@@ -28,7 +26,13 @@ export default function Home() {
       <div className="search">
         <label>Search</label>
         <div className="search-bar">
-          <input type="text" onChange={(e) => setQuery(e.target.value)} />
+          <input
+            type="text"
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setSearchParam("query");
+            }}
+          />
           <button onClick={setQueryUrl}>
             <i className="fa fa-search" aria-hidden="true"></i>
           </button>
@@ -43,7 +47,10 @@ export default function Home() {
               id="date"
               value="date"
               defaultChecked
-              onFocus={(e) => setSearchFilter("search_by_date?")}
+              onFocus={(e) => {
+                setSearchFilter("search_by_date?");
+                setQueryUrl();
+              }}
             />
           </label>
           <label htmlFor="relevance">
@@ -53,7 +60,10 @@ export default function Home() {
               name="filter"
               id="relevance"
               value="relevance"
-              onFocus={(e) => setSearchFilter("search?")}
+              onFocus={(e) => {
+                setSearchFilter("search?");
+                setQueryUrl();
+              }}
             />
           </label>
         </div>
