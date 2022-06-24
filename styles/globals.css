@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Quicksand:wght@300&family=Roboto+Slab:wght@300&display=swap");
 
+/* All */
+
 * {
   margin: 0;
   padding: 0;
@@ -25,8 +27,11 @@ body {
   cursor: pointer;
 }
 
+/* Homepage */
+
 .content,
-.search {
+.search,
+.news-details {
   max-width: 960px;
   text-align: center;
   margin: auto;
@@ -140,4 +145,43 @@ button:hover {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
+}
+
+/* Details page */
+
+.title h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+.details,
+.comment-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details p,
+.comment-details p {
+  padding: 0 10px;
+  margin: 0 10px 15px;
+}
+
+.comments h3 {
+  padding-bottom: 3px;
+  border-bottom: 2px solid coral;
+  margin: 10px;
+}
+
+.comment-card {
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px 20px;
+  margin: 10px;
+}
+
+.comment-card p {
+  text-align: justify;
+  margin: 5px 10px 20px;
 }
