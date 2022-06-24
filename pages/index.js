@@ -69,7 +69,7 @@ export default function Home() {
         </div>
       </div>
       <div className="content">
-        <News baseUrl={baseUrl} setBaseUrl={setBaseUrl} />
+        <News baseUrl={baseUrl} />
       </div>
     </div>
   );

@@ -2,23 +2,16 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
+import useFetch from "./hooks/useFetch";
 
-const News = ({ baseUrl, setBaseUrl }) => {
-  const [newsList, setNewsList] = useState(null);
-
-  useEffect(() => {
-    const getData = async () => {
-      const res = await axios.get(baseUrl);
-      const data = await res.data;
-
-      setNewsList(data.hits);
-    };
-    getData();
-  }, [baseUrl]);
+const News = ({ baseUrl }) => {
+  const { data: newsList, isPending, error } = useFetch(baseUrl);
 
   return (
     <>
       <div className="news">
+        {error && <div>{error}</div>}
+        {isPending && <div>Loading...</div>}
         {newsList &&
           newsList.map((news) => (
             <div className="news-card" key={news.objectID}>
