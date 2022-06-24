@@ -1,0 +1,732 @@
+{
+  "hits": [
+    {
+      "created_at": "2011-10-05T23:42:23.000Z",
+      "title": "Steve Jobs has passed away.",
+      "url": "http://www.apple.com/stevejobs/",
+      "author": "patricktomas",
+      "points": 4271,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 376,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1317858143,
+      "relevancy_score": 3496,
+      "_tags": ["story", "author_patricktomas", "story_3078128"],
+      "objectID": "3078128",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Jobs has passed away.",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.apple.com/\u003cem\u003esteve\u003c/em\u003ejobs/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "patricktomas",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-10-30T18:15:52.000Z",
+      "title": "A Sisters Eulogy for Steve Jobs",
+      "url": "http://www.nytimes.com/2011/10/30/opinion/mona-simpsons-eulogy-for-steve-jobs.html?pagewanted=all",
+      "author": "NaOH",
+      "points": 1722,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 128,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1319998552,
+      "relevancy_score": 3536,
+      "_tags": ["story", "author_NaOH", "story_3174961"],
+      "objectID": "3174961",
+      "_highlightResult": {
+        "title": {
+          "value": "A Sisters Eulogy for \u003cem\u003eSteve\u003c/em\u003e Jobs",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.nytimes.com/2011/10/30/opinion/mona-simpsons-eulogy-for-\u003cem\u003esteve\u003c/em\u003e-jobs.html?pagewanted=all",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": { "value": "NaOH", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-08-24T22:37:35.000Z",
+      "title": "Steve Jobs Resigns as CEO of Apple",
+      "url": "http://finance.yahoo.com/news/Steve-Jobs-Resigns-as-CEO-of-bw-19285464.html?x=0\u0026.v=1",
+      "author": "taylorbuley",
+      "points": 1638,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 306,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1314225455,
+      "relevancy_score": 3415,
+      "_tags": ["story", "author_taylorbuley", "story_2922756"],
+      "objectID": "2922756",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Jobs Resigns as CEO of Apple",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://finance.yahoo.com/news/\u003cem\u003eSteve\u003c/em\u003e-Jobs-Resigns-as-CEO-of-bw-19285464.html?x=0\u0026.v=1",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "taylorbuley",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2013-08-23T13:05:49.000Z",
+      "title": "Microsoft CEO Steve Ballmer to retire within 12 months",
+      "url": "http://www.microsoft.com/en-us/news/press/2013/aug13/08-23AnnouncementPR.aspx",
+      "author": "tomorgan",
+      "points": 1183,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 769,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1377263149,
+      "relevancy_score": 4813,
+      "_tags": ["story", "author_tomorgan", "story_6263205"],
+      "objectID": "6263205",
+      "_highlightResult": {
+        "title": {
+          "value": "Microsoft CEO \u003cem\u003eSteve\u003c/em\u003e Ballmer to retire within 12 months",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.microsoft.com/en-us/news/press/2013/aug13/08-23AnnouncementPR.aspx",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "tomorgan",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-10-12T07:26:13.000Z",
+      "title": "Steve's Google Platform rant",
+      "url": "https://plus.google.com/110981030061712822816/posts/WugKtXSp7We",
+      "author": "tRAS",
+      "points": 1182,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 398,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1318404373,
+      "relevancy_score": 3509,
+      "_tags": ["story", "author_tRAS", "story_3101876"],
+      "objectID": "3101876",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e's Google Platform rant",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://plus.google.com/110981030061712822816/posts/WugKtXSp7We",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "tRAS", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2017-04-18T02:33:46.000Z",
+      "title": "Steve Ballmer serves up a data trove about government spending in the US",
+      "url": "https://www.nytimes.com/2017/04/17/business/dealbook/steve-ballmer-serves-up-a-fascinating-data-trove.html?_r=0",
+      "author": "throw9982",
+      "points": 1124,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 258,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1492482826,
+      "relevancy_score": 7380,
+      "_tags": ["story", "author_throw9982", "story_14136081"],
+      "objectID": "14136081",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Ballmer serves up a data trove about government spending in the US",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://www.nytimes.com/2017/04/17/business/dealbook/\u003cem\u003esteve\u003c/em\u003e-ballmer-serves-up-a-fascinating-data-trove.html?_r=0",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "throw9982",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2018-05-14T16:31:10.000Z",
+      "title": "John Carmack: My Steve Jobs Stories",
+      "url": "https://m.facebook.com/permalink.php?story_fbid=2146412825593223\u0026id=100006735798590",
+      "author": "_mlxl",
+      "points": 1075,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 366,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1526315470,
+      "_tags": ["story", "author__mlxl", "story_17066846"],
+      "objectID": "17066846",
+      "_highlightResult": {
+        "title": {
+          "value": "John Carmack: My \u003cem\u003eSteve\u003c/em\u003e Jobs Stories",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://m.facebook.com/permalink.php?story_fbid=2146412825593223\u0026id=100006735798590",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "_mlxl", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-10-05T23:38:05.000Z",
+      "title": "Steve Jobs has died",
+      "url": "http://www.marketwatch.com/story/statement-by-apples-board-of-directors-2011-10-05",
+      "author": "byrneseyeview",
+      "points": 889,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 70,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1317857885,
+      "relevancy_score": 3495,
+      "_tags": ["story", "author_byrneseyeview", "story_3078107"],
+      "objectID": "3078107",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Jobs has died",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.marketwatch.com/story/statement-by-apples-board-of-directors-2011-10-05",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "byrneseyeview",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2021-09-14T12:49:43.000Z",
+      "title": "Steve Wozniak announces private space company to clean up space debris in orbit",
+      "url": "https://www.independent.co.uk/life-style/gadgets-and-tech/apple-founder-wozniak-space-debris-company-b1919747.html",
+      "author": "notRobot",
+      "points": 804,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 250,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1631623783,
+      "_tags": ["story", "author_notRobot", "story_28523946"],
+      "objectID": "28523946",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Wozniak announces private space company to clean up space debris in orbit",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://www.independent.co.uk/life-style/gadgets-and-tech/apple-founder-wozniak-space-debris-company-b1919747.html",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "notRobot",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2015-12-02T13:04:37.000Z",
+      "title": "How to be like Steve Ballmer",
+      "url": "https://medium.com/@drb/how-to-be-like-steve-ballmer-cf4c9803d74c#.xfttmyket",
+      "author": "drb311",
+      "points": 763,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 188,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1449061477,
+      "relevancy_score": 6412,
+      "_tags": ["story", "author_drb311", "story_10662666"],
+      "objectID": "10662666",
+      "_highlightResult": {
+        "title": {
+          "value": "How to be like \u003cem\u003eSteve\u003c/em\u003e Ballmer",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://medium.com/@drb/how-to-be-like-\u003cem\u003esteve\u003c/em\u003e-ballmer-cf4c9803d74c#.xfttmyket",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "drb311",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2022-03-09T13:03:56.000Z",
+      "title": "The day Steve Jobs dissed me in a keynote (2010)",
+      "url": "https://sive.rs/itunes",
+      "author": "graderjs",
+      "points": 683,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 448,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1646831036,
+      "_tags": ["story", "author_graderjs", "story_30613967"],
+      "objectID": "30613967",
+      "_highlightResult": {
+        "title": {
+          "value": "The day \u003cem\u003eSteve\u003c/em\u003e Jobs dissed me in a keynote (2010)",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://sive.rs/itunes",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "graderjs",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2021-02-05T06:29:10.000Z",
+      "title": "The man who produced Steve Jobs’ keynotes for 20 years (2018)",
+      "url": "https://www.cake.co/conversations/jNZlq6j/the-man-who-produced-steve-jobs-keynotes-for-20-years",
+      "author": "allenleein",
+      "points": 674,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 196,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1612506550,
+      "_tags": ["story", "author_allenleein", "story_26033689"],
+      "objectID": "26033689",
+      "_highlightResult": {
+        "title": {
+          "value": "The man who produced \u003cem\u003eSteve\u003c/em\u003e Jobs’ keynotes for 20 years (2018)",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://www.cake.co/conversations/jNZlq6j/the-man-who-produced-\u003cem\u003esteve\u003c/em\u003e-jobs-keynotes-for-20-years",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "allenleein",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2016-05-02T07:04:05.000Z",
+      "title": "Craig Steven Wright claims to be Satoshi Nakamoto",
+      "url": "http://www.economist.com/news/briefings/21698061-craig-steven-wright-claims-be-satoshi-nakamoto-bitcoin",
+      "author": "shazad",
+      "points": 639,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 136,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1462172645,
+      "relevancy_score": 6708,
+      "_tags": ["story", "author_shazad", "story_11609611"],
+      "objectID": "11609611",
+      "_highlightResult": {
+        "title": {
+          "value": "Craig \u003cem\u003eSteve\u003c/em\u003en Wright claims to be Satoshi Nakamoto",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.economist.com/news/briefings/21698061-craig-\u003cem\u003esteve\u003c/em\u003en-wright-claims-be-satoshi-nakamoto-bitcoin",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "shazad",
+          "matchLevel": "none",
+          "matchedWords": []
+        }
+      }
+    },
+    {
+      "created_at": "2011-08-24T22:39:47.000Z",
+      "title": "Steve Jobs Resigns as Apple CEO (Official Letter)",
+      "url": "http://blogs.wsj.com/deals/2011/08/24/steve-jobs-resigns-as-apple-ceo/",
+      "author": "hunterowens",
+      "points": 632,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 65,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1314225587,
+      "relevancy_score": 3415,
+      "_tags": ["story", "author_hunterowens", "story_2922770"],
+      "objectID": "2922770",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Jobs Resigns as Apple CEO (Official Letter)",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://blogs.wsj.com/deals/2011/08/24/\u003cem\u003esteve\u003c/em\u003e-jobs-resigns-as-apple-ceo/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "hunterowens",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2013-04-19T20:48:44.000Z",
+      "title": "You are not Steve Jobs",
+      "url": "https://medium.com/editors-picks/9ae1727d2479",
+      "author": "OafTobark",
+      "points": 601,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 304,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1366404524,
+      "relevancy_score": 4571,
+      "_tags": ["story", "author_OafTobark", "story_5578642"],
+      "objectID": "5578642",
+      "_highlightResult": {
+        "title": {
+          "value": "You are not \u003cem\u003eSteve\u003c/em\u003e Jobs",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://medium.com/editors-picks/9ae1727d2479",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "OafTobark",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2014-09-12T00:05:55.000Z",
+      "title": "Steve Jobs Introduces the iPhone 6 and Apple Watch",
+      "url": "http://jiggity.com/steve.html",
+      "author": "strict9",
+      "points": 583,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 222,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1410480355,
+      "relevancy_score": 5552,
+      "_tags": ["story", "author_strict9", "story_8305938"],
+      "objectID": "8305938",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Jobs Introduces the iPhone 6 and Apple Watch",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://jiggity.com/\u003cem\u003esteve\u003c/em\u003e.html",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "strict9",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2017-10-13T15:38:46.000Z",
+      "title": "Steve Wozniak announces tech education platform Woz U",
+      "url": "https://techcrunch.com/2017/10/13/steve-wozniak-announces-tech-education-platform-woz-u/",
+      "author": "_nh_",
+      "points": 578,
+      "story_text": null,
+      "comment_text": null,
+      "num_comments": 114,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1507909126,
+      "relevancy_score": 7716,
+      "_tags": ["story", "author__nh_", "story_15466599"],
+      "objectID": "15466599",
+      "_highlightResult": {
+        "title": {
+          "value": "\u003cem\u003eSteve\u003c/em\u003e Wozniak announces tech education platform Woz U",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "https://techcrunch.com/2017/10/13/\u003cem\u003esteve\u003c/em\u003e-wozniak-announces-tech-education-platform-woz-u/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": { "value": "_nh_", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2012-10-05T10:19:11.000Z",
+      "title": "Apple's tribute to Steve Jobs, one year on.",
+      "url": "http://www.apple.com/?hn",
+      "author": "sjtgraham",
+      "points": 576,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 197,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1349432351,
+      "relevancy_score": 4194,
+      "_tags": ["story", "author_sjtgraham", "story_4616292"],
+      "objectID": "4616292",
+      "_highlightResult": {
+        "title": {
+          "value": "Apple's tribute to \u003cem\u003eSteve\u003c/em\u003e Jobs, one year on.",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://www.apple.com/?hn",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": {
+          "value": "sjtgraham",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2010-11-12T01:40:56.000Z",
+      "title": "The day Steve Jobs dissed me hard",
+      "url": "http://sivers.org/itunes",
+      "author": "grep",
+      "points": 567,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 122,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1289526056,
+      "relevancy_score": 2864,
+      "_tags": ["story", "author_grep", "story_1896189"],
+      "objectID": "1896189",
+      "_highlightResult": {
+        "title": {
+          "value": "The day \u003cem\u003eSteve\u003c/em\u003e Jobs dissed me hard",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://sivers.org/itunes",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "author": { "value": "grep", "matchLevel": "none", "matchedWords": [] },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    },
+    {
+      "created_at": "2011-10-06T02:03:37.000Z",
+      "title": "The Steve Jobs I Knew",
+      "url": "http://allthingsd.com/20111005/the-steve-jobs-i-knew/",
+      "author": "Vexenon",
+      "points": 561,
+      "story_text": "",
+      "comment_text": null,
+      "num_comments": 12,
+      "story_id": null,
+      "story_title": null,
+      "story_url": null,
+      "parent_id": null,
+      "created_at_i": 1317866617,
+      "relevancy_score": 3495,
+      "_tags": ["story", "author_Vexenon", "story_3078706"],
+      "objectID": "3078706",
+      "_highlightResult": {
+        "title": {
+          "value": "The \u003cem\u003eSteve\u003c/em\u003e Jobs I Knew",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "url": {
+          "value": "http://allthingsd.com/20111005/the-\u003cem\u003esteve\u003c/em\u003e-jobs-i-knew/",
+          "matchLevel": "full",
+          "fullyHighlighted": false,
+          "matchedWords": ["steve"]
+        },
+        "author": {
+          "value": "Vexenon",
+          "matchLevel": "none",
+          "matchedWords": []
+        },
+        "story_text": { "value": "", "matchLevel": "none", "matchedWords": [] }
+      }
+    }
+  ],
+  "nbHits": 111143,
+  "page": 0,
+  "nbPages": 50,
+  "hitsPerPage": 20,
+  "exhaustiveNbHits": false,
+  "exhaustiveTypo": true,
+  "query": "steve",
+  "params": "advancedSyntax=true\u0026analytics=true\u0026analyticsTags=backend\u0026query=steve",
+  "processingTimeMS": 2
+}
