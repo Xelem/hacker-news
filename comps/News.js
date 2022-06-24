@@ -1,14 +1,9 @@
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
 
-const News = () => {
-  const [baseUrl, setBaseUrl] = useState(
-    "https://hn.algolia.com/api/v1/search_by_date?tags=front_page"
-  );
-
+const News = ({ baseUrl, setBaseUrl }) => {
   const [newsList, setNewsList] = useState(null);
 
   useEffect(() => {
@@ -19,7 +14,7 @@ const News = () => {
       setNewsList(data.hits);
     };
     getData();
-  }, []);
+  }, [baseUrl]);
 
   return (
     <>
@@ -29,7 +24,7 @@ const News = () => {
             <div className="news-card" key={news.objectID}>
               <Image
                 className="image"
-                src="/white.jpeg"
+                src={news.title ? "/story.png" : "/comment.png"}
                 alt="Plain white image"
                 width="300"
                 height="200"
