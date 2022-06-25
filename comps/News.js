@@ -27,7 +27,7 @@ const News = ({ baseUrl }) => {
                 <i>{news.author}</i>
               </p>
               <div className="info">
-                <Link href="/news/:id">
+                <Link href={`/news/${news.objectID}`}>
                   <button>Read more</button>
                 </Link>
                 <p>
