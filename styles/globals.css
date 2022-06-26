@@ -31,7 +31,8 @@ body {
 
 .content,
 .search,
-.news-details {
+.news-details,
+.not-found {
   max-width: 960px;
   text-align: center;
   margin: auto;
@@ -188,4 +189,41 @@ button:hover {
 .comment-card p {
   text-align: justify;
   margin: 5px 10px 20px;
+}
+
+/* 404 */
+.showcase {
+  background-color: #fff;
+  border-bottom: 2px solid coral;
+  border-right: 2px solid coral;
+  border-left: 2px solid coral;
+  border-radius: 1px;
+  padding: 30px;
+  height: 300px;
+}
+
+.showcase h1 {
+  font-size: 150px;
+  color: coral;
+}
+
+.showcase p {
+  font-size: 35px;
+  color: coral;
+}
+
+.redirect {
+  margin: 30px;
+}
+
+.redirect a {
+  font-size: 30px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.redirect a span {
+  color: coral;
+  text-decoration: underline;
 }

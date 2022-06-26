@@ -1,9 +1,7 @@
 import { useState } from "react";
-import { useEffect } from "react";
 import axios from "axios";
 import Head from "next/head";
 import News from "../comps/News";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [searchFilter, setSearchFilter] = useState("search_by_date?");
