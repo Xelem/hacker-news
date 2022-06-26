@@ -12,10 +12,10 @@ const useFetch = (url) => {
       if (res.status !== 200)
         throw Error("Could not fetch data from that resource");
       const data = await res.data;
-
       setIsPending(false);
       setError(false);
       setData(data.hits);
+      console.log(data);
     };
     getData();
   }, [url]);
