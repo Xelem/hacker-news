@@ -135,6 +135,23 @@ button:hover {
   margin-left: auto;
 }
 
+.see-more {
+  background-color: #fff;
+}
+
+.see-more:hover,
+.view-more:hover {
+  background-color: coral;
+  color: #fff;
+  cursor: pointer;
+}
+
+.view-more {
+  padding: 10px;
+  margin: 5px;
+  color: coral;
+}
+
 .footer {
   background-color: coral;
   padding: 20px;

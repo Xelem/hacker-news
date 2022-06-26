@@ -1,5 +1,4 @@
 import { useState } from "react";
-import axios from "axios";
 import Head from "next/head";
 import News from "../comps/News";
 
@@ -7,7 +6,7 @@ export default function Home() {
   const [searchFilter, setSearchFilter] = useState("search_by_date?");
   const [searchParam, setSearchParam] = useState("tags");
   const [baseUrl, setBaseUrl] = useState(
-    "https://hn.algolia.com/api/v1/search_by_date?tags=front_page"
+    "https://hn.algolia.com/api/v1/search_by_date?"
   );
   const [query, setQuery] = useState("front_page");
   const setQueryUrl = () => {
