@@ -31,7 +31,8 @@ body {
 
 .content,
 .search,
-.not-found {
+.not-found,
+.comments {
   max-width: 960px;
   text-align: center;
   margin: auto;
@@ -59,42 +60,19 @@ input {
   margin-bottom: 10px;
 }
 
-.filter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.filter label {
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-
-.sort {
-  margin-top: 10px;
-}
-
-#date,
-#relevance {
-  margin: 0px 15px 10px 15px;
-  padding: 0px;
-  font-size: small;
-  height: 15px;
-  width: 15px;
-}
-
 button,
 .view-more {
   padding: 10px 15px;
   background-color: coral;
   border: none;
   border-radius: 3px;
+  border: 1px solid coral;
 }
 
 button:hover,
 .view-more:hover {
   background: #fff;
-  border: 1px solid coral;
+  cursor: pointer;
 }
 
 .see-more {
@@ -163,6 +141,7 @@ button:hover,
   padding-bottom: 3px;
   border-bottom: 2px solid coral;
   margin: 10px;
+  font-size: 30px;
 }
 
 .comment-card {

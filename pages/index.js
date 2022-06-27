@@ -3,15 +3,15 @@ import Head from "next/head";
 import News from "../comps/News";
 
 export default function Home() {
-  const [searchFilter, setSearchFilter] = useState("search_by_date?");
-  const [searchParam, setSearchParam] = useState("tags");
   const [baseUrl, setBaseUrl] = useState(
-    "https://hn.algolia.com/api/v1/search_by_date?"
+    "https://hn.algolia.com/api/v1/search?tags=front_page"
   );
+  const [searchParam, setSearchParam] = useState("tags");
   const [query, setQuery] = useState("front_page");
+  const [pageNum, setPageNum] = useState(0);
   const setQueryUrl = () => {
     setBaseUrl(
-      `https://hn.algolia.com/api/v1/${searchFilter}${searchParam}=${query}`
+      `https://hn.algolia.com/api/v1/search?${searchParam}=${query}?page=${pageNum}`
     );
   };
 
@@ -33,36 +33,6 @@ export default function Home() {
           <button onClick={setQueryUrl}>
             <i className="fa fa-search" aria-hidden="true"></i>
           </button>
-        </div>
-        <label className="sort">Sort By:</label>
-        <div className="filter">
-          <label htmlFor="date">
-            Date
-            <input
-              type="radio"
-              name="filter"
-              id="date"
-              value="date"
-              defaultChecked
-              onFocus={(e) => {
-                setSearchFilter("search_by_date?");
-                setQueryUrl();
-              }}
-            />
-          </label>
-          <label htmlFor="relevance">
-            Relevance
-            <input
-              type="radio"
-              name="filter"
-              id="relevance"
-              value="relevance"
-              onFocus={(e) => {
-                setSearchFilter("search?");
-                setQueryUrl();
-              }}
-            />
-          </label>
         </div>
       </div>
       <div className="content">

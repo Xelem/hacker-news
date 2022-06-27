@@ -23,7 +23,7 @@ const News = ({ baseUrl }) => {
                 ></Image>
                 <div className="info">
                   <p>
-                    {news.title || `${news.comment_text.slice(0, 40)}...`}-{" "}
+                    {news.title || `${news.comment_text.slice(0, 40)}...` || ""}
                     <i>{news.author}</i>
                   </p>
                   <p>
