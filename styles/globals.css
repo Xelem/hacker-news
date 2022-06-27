@@ -31,7 +31,6 @@ body {
 
 .content,
 .search,
-.news-details,
 .not-found {
   max-width: 960px;
   text-align: center;
@@ -84,72 +83,22 @@ input {
   width: 15px;
 }
 
-.news-card {
-  width: 300px;
-  height: 340px;
-  border: 2px solid coral;
-  margin-bottom: 15px;
-  position: relative;
-}
-
-.news-card p {
-  text-align: justify;
-  padding: 10px 5px;
-}
-
-.info {
-  display: flex;
-  margin: 5px 10px;
-}
-
-.info p {
-  position: absolute;
-  top: 290px;
-  right: 10px;
-}
-
-.news {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 7px;
-}
-
-.news-card button {
-  position: absolute;
-  top: 290px;
-}
-
-button {
+button,
+.view-more {
   padding: 10px 15px;
   background-color: coral;
   border: none;
   border-radius: 3px;
 }
 
-button:hover {
+button:hover,
+.view-more:hover {
   background: #fff;
   border: 1px solid coral;
 }
 
-.news-card p {
-  margin-left: auto;
-}
-
 .see-more {
   background-color: #fff;
-}
-
-.see-more:hover,
-.view-more:hover {
-  background-color: coral;
-  color: #fff;
-  cursor: pointer;
-}
-
-.view-more {
-  padding: 10px;
-  margin: 5px;
-  color: coral;
 }
 
 .footer {
@@ -163,6 +112,26 @@ button:hover {
   font-weight: bold;
   margin: 10px;
   padding-top: 10px;
+}
+
+/* News component */
+
+.news-card {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  padding: 10px 10px;
+  margin: 15px 10px;
+}
+
+.news-card:hover {
+  cursor: pointer;
+  border-left: 2px solid coral;
+  border-right: 2px solid coral;
+}
+
+.info p {
+  padding: 10px 0;
 }
 
 /* Details page */

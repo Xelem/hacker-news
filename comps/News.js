@@ -12,30 +12,27 @@ const News = ({ baseUrl }) => {
         {isPending && <div>Loading...</div>}
         {newsList &&
           newsList.map((news) => (
-            <>
-              <div className="news-card" key={news.objectID}>
+            <Link href={`/news/${news.objectID}`} key={news.objectID}>
+              <div className="news-card">
                 <Image
                   className="image"
                   src={news.title ? "/story.png" : "/comment.png"}
                   alt="Plain white image"
-                  width="300"
-                  height="200"
+                  width="150"
+                  height="100"
                 ></Image>
-                <p>
-                  {news.title || `${news.comment_text.slice(0, 40)}...`}-{" "}
-                  <i>{news.author}</i>
-                </p>
                 <div className="info">
-                  <Link href={`/news/${news.objectID}`}>
-                    <button>Read more</button>
-                  </Link>
                   <p>
-                    {news.created_at.split("T")[0]} ||{" "}
+                    {news.title || `${news.comment_text.slice(0, 40)}...`}-{" "}
+                    <i>{news.author}</i>
+                  </p>
+                  <p>
+                    Created at: {news.created_at.split("T")[0]} ||{" "}
                     {news.created_at.split("T")[1].slice(0, -5)}
                   </p>
                 </div>
               </div>
-            </>
+            </Link>
           ))}
       </div>
       <div className="see-more">
