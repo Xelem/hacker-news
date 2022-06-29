@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import useFetch from "./hooks/useFetch";
 
-const News = ({ baseUrl }) => {
+const News = ({ baseUrl, pageNum, setPageNum, setQueryUrl }) => {
   const { data: newsList, isPending, error } = useFetch(baseUrl);
 
   return (
@@ -35,7 +35,13 @@ const News = ({ baseUrl }) => {
             </Link>
           ))}
       </div>
-      <div className="see-more">
+      <div
+        className="see-more"
+        onClick={(e) => {
+          setPageNum(pageNum + 1);
+          setQueryUrl();
+        }}
+      >
         {newsList && <p className="view-more">View more...</p>}
       </div>
     </>

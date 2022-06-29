@@ -6,13 +6,14 @@ export default function Home() {
   const [baseUrl, setBaseUrl] = useState(
     "https://hn.algolia.com/api/v1/search?tags=front_page"
   );
-  const [searchParam, setSearchParam] = useState("tags");
+  const [searchParam, setSearchParam] = useState("tags=");
   const [query, setQuery] = useState("front_page");
   const [pageNum, setPageNum] = useState(0);
   const setQueryUrl = () => {
     setBaseUrl(
-      `https://hn.algolia.com/api/v1/search?${searchParam}=${query}?page=${pageNum}`
+      `https://hn.algolia.com/api/v1/search?${searchParam}${query}page=${pageNum}`
     );
+    console.log(baseUrl);
   };
 
   return (
@@ -26,8 +27,8 @@ export default function Home() {
           <input
             type="text"
             onChange={(e) => {
-              setQuery(e.target.value);
-              setSearchParam("query");
+              setQuery(`${e.target.value}?`);
+              setSearchParam("query=");
             }}
           />
           <button onClick={setQueryUrl}>
@@ -36,7 +37,12 @@ export default function Home() {
         </div>
       </div>
       <div className="content">
-        <News baseUrl={baseUrl} />
+        <News
+          baseUrl={baseUrl}
+          pageNum={pageNum}
+          setPageNum={setPageNum}
+          setQueryUrl={setQueryUrl}
+        />
       </div>
     </div>
   );

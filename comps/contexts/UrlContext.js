@@ -1,5 +1,12 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 
-import(createContext);
+const Context = createContext();
 
-export const UrlContext = createContext({});
+const Provider = ({ children }) => {
+  const [baseUrl, setBaseUrl] = useState(
+    "https://hn.algolia.com/api/v1/search?tags=front_page"
+  );
+  return <Context.Provider>{children}</Context.Provider>;
+};
+
+export default Provider;
