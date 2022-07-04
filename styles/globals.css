@@ -29,7 +29,6 @@ body {
 
 /* Homepage */
 
-.content,
 .search,
 .not-found,
 .comments {
@@ -71,6 +70,31 @@ button {
 button:hover {
   background: #fff;
   cursor: pointer;
+}
+
+.paginate {
+  display: flex;
+  margin: 0 10px;
+  padding: 10px 15px;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.paginate a {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.paginate a:hover {
+  cursor: pointer;
+  border: 1px solid coral;
+}
+
+.active-page a {
+  color: #fff;
+  background: coral;
 }
 
 .footer {
