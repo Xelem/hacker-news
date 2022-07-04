@@ -60,8 +60,7 @@ input {
   margin-bottom: 10px;
 }
 
-button,
-.view-more {
+button {
   padding: 10px 15px;
   background-color: coral;
   border: none;
@@ -69,14 +68,9 @@ button,
   border: 1px solid coral;
 }
 
-button:hover,
-.view-more:hover {
+button:hover {
   background: #fff;
   cursor: pointer;
-}
-
-.see-more {
-  background-color: #fff;
 }
 
 .footer {
@@ -96,8 +90,6 @@ button:hover,
 
 .news-card {
   background-color: #fff;
-  display: grid;
-  grid-template-columns: 2fr 8fr;
   padding: 10px 10px;
   margin: 15px 10px;
 }
@@ -191,4 +183,14 @@ button:hover,
 .redirect a span {
   color: coral;
   text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .image {
+    display: none;
+  }
+
+  .footer {
+    padding: 10px;
+  }
 }

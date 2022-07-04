@@ -1,49 +1,43 @@
-import Image from "next/image";
-import Link from "next/link";
-import useFetch from "./hooks/useFetch";
+import { useEffect, useState } from "react";
+import axios from "axios";
+import NewsCard from "./NewsCard";
 
-const News = ({ baseUrl, pageNum, setPageNum, setQueryUrl }) => {
-  const { data: newsList, isPending, error } = useFetch(baseUrl);
+const News = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [articles, setArticles] = useState([]);
+
+  useEffect(() => {
+    setIsLoading(true);
+    const getData = async () => {
+      const { data } = await axios.get("http://hn.algolia.com/api/v1/search?");
+      const { hits, nbPages } = data;
+      setArticles(hits);
+      setIsLoading(false);
+    };
+    getData();
+  }, []);
 
   return (
     <>
-      <div className="news">
-        {error && <div>{error}</div>}
-        {isPending && <div>Loading...</div>}
-        {newsList &&
-          newsList.map((news) => (
-            <Link href={`/news/${news.objectID}`} key={news.objectID}>
-              <div className="news-card">
-                <Image
-                  className="image"
-                  src={news.title ? "/story.png" : "/comment.png"}
-                  alt="Plain white image"
-                  width="150"
-                  height="100"
-                ></Image>
-                <div className="info">
-                  <p>
-                    {news.title || `${news.comment_text.slice(0, 40)}...` || ""}
-                    <i>{news.author}</i>
-                  </p>
-                  <p>
-                    Created at: {news.created_at.split("T")[0]} ||{" "}
-                    {news.created_at.split("T")[1].slice(0, -5)}
-                  </p>
-                </div>
-              </div>
-            </Link>
-          ))}
+      <div className="search">
+        <label>Search</label>
+        <form>
+          <div className="search-bar">
+            <input type="text" />
+            <button>
+              <i className="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </form>
+        <div className="news">
+          {isLoading && <div>Loading...</div>}
+          {articles &&
+            articles.map((article) => (
+              <NewsCard key={article.objectID} article={article} />
+            ))}
+        </div>
       </div>
-      <div
-        className="see-more"
-        onClick={(e) => {
-          setPageNum(pageNum + 1);
-          setQueryUrl();
-        }}
-      >
-        {newsList && <p className="view-more">View more...</p>}
-      </div>
+      <div className="content"></div>
     </>
   );
 };
