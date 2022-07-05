@@ -210,11 +210,10 @@ button:hover {
 }
 
 @media (max-width: 480px) {
-  .image {
-    display: none;
-  }
-
   .footer {
     padding: 10px;
   }
+}
+
+@media (max-width: 550px) {
 }

@@ -1,10 +1,19 @@
 import Link from "next/link";
+import { useContext } from "react";
+import { IDContext } from "./contexts/IDContext";
 
 const NewsCard = ({ article }) => {
+  const { id, setID } = useContext(IDContext);
+  console.log(id);
+
+  const setObjectID = (e) => {
+    setID(article.objectID);
+  };
+
   if (!article.title) return null;
   return (
     <Link href={`/news/${article.objectID}`}>
-      <div className="news-card">
+      <div className="news-card" onClick={setObjectID}>
         <div className="info">
           <p>
             {article.title}
