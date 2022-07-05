@@ -17,7 +17,7 @@ const NewsCard = ({ article }) => {
         <div className="info">
           <p>
             {article.title}
-            <i>{article.author}</i>
+            <i> - {article.author}</i>
           </p>
           <p>
             Created at: {article.created_at.split("T")[0]} ||{" "}

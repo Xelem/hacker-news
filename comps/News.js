@@ -48,7 +48,7 @@ const News = () => {
           </div>
         </form>
         <div className="news">
-          {isLoading && <div>Loading...</div>}
+          {isLoading && <div className="load">Loading...</div>}
           {articles &&
             articles.map((article) => (
               <NewsCard key={article.objectID} article={article} />

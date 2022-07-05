@@ -27,14 +27,23 @@ body {
   cursor: pointer;
 }
 
+.load {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  margin: 20px 0;
+  font-size: large;
+  font-weight: bold;
+}
+
 /* Homepage */
 
 .search,
 .not-found,
-.comments {
+.news-details {
   max-width: 960px;
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .search-bar {
