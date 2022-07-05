@@ -8,17 +8,24 @@ const News = () => {
   const [articles, setArticles] = useState([]);
   const [pageCount, setPageCount] = useState(0);
   const [currentPage, setCurrentPage] = useState(0);
+  const [input, setInput] = useState("");
+  const [query, setQuery] = useState("");
 
   const handlePageChange = (e) => {
     setCurrentPage(e.selected);
     console.log(e);
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setQuery(input);
+  };
+
   useEffect(() => {
     setIsLoading(true);
     const getData = async () => {
       const { data } = await axios.get("http://hn.algolia.com/api/v1/search?", {
-        params: { page: currentPage },
+        params: { page: currentPage, query: query },
       });
       const { hits, nbPages } = data;
       setArticles(hits);
@@ -26,15 +33,15 @@ const News = () => {
       setPageCount(nbPages);
     };
     getData();
-  }, [currentPage]);
+  }, [currentPage, query]);
 
   return (
     <>
       <div className="search">
         <label>Search</label>
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="search-bar">
-            <input type="text" />
+            <input type="text" onChange={(e) => setInput(e.target.value)} />
             <button>
               <i className="fa fa-search" aria-hidden="true"></i>
             </button>
