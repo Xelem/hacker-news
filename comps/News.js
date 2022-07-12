@@ -3,9 +3,10 @@ import axios from "axios";
 import ReactPaginate from "react-paginate";
 import NewsCard from "./NewsCard";
 
-const News = ({ hits, nbPages }) => {
-  const [articles, setArticles] = useState(hits);
-  const [pageCount, setPageCount] = useState(nbPages);
+const News = () => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [articles, setArticles] = useState([]);
+  const [pageCount, setPageCount] = useState(0);
   const [currentPage, setCurrentPage] = useState(0);
   const [input, setInput] = useState("");
   const [query, setQuery] = useState("");
@@ -21,13 +22,14 @@ const News = ({ hits, nbPages }) => {
   };
 
   useEffect(() => {
+    setIsLoading(true);
     const getData = async () => {
       const { data } = await axios.get("http://hn.algolia.com/api/v1/search?", {
         params: { page: currentPage, query: query },
       });
       const { hits, nbPages } = data;
       setArticles(hits);
-
+      setIsLoading(false);
       setPageCount(nbPages);
     };
     getData();
@@ -46,6 +48,7 @@ const News = ({ hits, nbPages }) => {
           </div>
         </form>
         <div className="news">
+          {isLoading && <div className="load">Loading...</div>}
           {articles &&
             articles.map((article) => (
               <NewsCard key={article.objectID} article={article} />
