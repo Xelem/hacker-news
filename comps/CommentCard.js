@@ -18,7 +18,6 @@ const CommentCard = (comment) => {
     .replace(/.com/g, " .com ")
     .replace(/_/g, " _ ")
     .replace(/&amp;/g, " ")
-    .replace(/./g, " . ")
     .replace(/%/g, " ")
     .replace("/", " / ");
 
