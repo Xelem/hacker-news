@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ReactPaginate from "react-paginate";
 import NewsCard from "./NewsCard";
+import { baseURL } from "../utils/constants";
 
 const News = ({ hits, nbPages }) => {
   const [articles, setArticles] = useState(hits);
@@ -22,7 +23,7 @@ const News = ({ hits, nbPages }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const { data } = await axios.get("http://hn.algolia.com/api/v1/search?", {
+      const { data } = await axios.get(baseURL, {
         params: { page: currentPage, query: query },
       });
       const { hits, nbPages } = data;

@@ -1,8 +1,8 @@
 import axios from "axios";
-
 import { useContext, useEffect, useState } from "react";
 import Comments from "../../comps/Comments";
 import { IDContext } from "../../comps/contexts/IDContext";
+import { itemURL } from "../../utils/constants";
 
 const Details = () => {
   const { id } = useContext(IDContext);
@@ -12,9 +12,7 @@ const Details = () => {
   useEffect(() => {
     setIsLoading(true);
     const getData = async () => {
-      const { data } = await axios.get(
-        `http://hn.algolia.com/api/v1/items/${id}`
-      );
+      const { data } = await axios.get(`${itemURL}${id}`);
       setItem(data);
       setIsLoading(false);
     };

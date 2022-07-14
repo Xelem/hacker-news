@@ -1,9 +1,10 @@
 import axios from "axios";
 import Head from "next/head";
 import News from "../comps/News";
+import { baseURL } from "../utils/constants";
 
 export const getStaticProps = async () => {
-  const { data } = await axios.get("http://hn.algolia.com/api/v1/search?");
+  const { data } = await axios.get(baseURL);
   const { hits, nbPages } = data;
 
   return {
