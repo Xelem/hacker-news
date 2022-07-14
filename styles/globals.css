@@ -218,11 +218,14 @@ button:hover {
   text-decoration: underline;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
+  .paginate {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+  }
+
   .footer {
     padding: 10px;
   }
-}
-
-@media (max-width: 550px) {
 }

@@ -13,7 +13,6 @@ const News = ({ hits, nbPages }) => {
 
   const handlePageChange = (e) => {
     setCurrentPage(e.selected);
-    console.log(e);
   };
 
   const handleSubmit = (e) => {

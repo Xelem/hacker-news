@@ -25,7 +25,6 @@ const Comments = ({ item }) => {
       </div>
       <div className="comments">
         <h3>Comments</h3>
-        {console.log(item)}
         {item.children.map((comment) => (
           <CommentCard key={comment.id} comment={comment} />
         ))}

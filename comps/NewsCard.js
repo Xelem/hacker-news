@@ -4,7 +4,6 @@ import { IDContext } from "./contexts/IDContext";
 
 const NewsCard = ({ article }) => {
   const { id, setID } = useContext(IDContext);
-  console.log(id);
 
   const setObjectID = (e) => {
     setID(article.objectID);
