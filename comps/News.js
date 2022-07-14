@@ -24,9 +24,12 @@ const News = () => {
   useEffect(() => {
     setIsLoading(true);
     const getData = async () => {
-      const { data } = await axios.get("http://hn.algolia.com/api/v1/search?", {
-        params: { page: currentPage, query: query },
-      });
+      const { data } = await axios.get(
+        "https://hn.algolia.com/api/v1/search?",
+        {
+          params: { page: currentPage, query: query },
+        }
+      );
       const { hits, nbPages } = data;
       setArticles(hits);
       setIsLoading(false);

@@ -13,7 +13,7 @@ const Details = () => {
     setIsLoading(true);
     const getData = async () => {
       const { data } = await axios.get(
-        `http://hn.algolia.com/api/v1/items/${id}`
+        `https://hn.algolia.com/api/v1/items/${id}`
       );
       setItem(data);
       setIsLoading(false);
