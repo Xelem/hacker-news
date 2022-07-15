@@ -30,7 +30,7 @@ const CommentCard = (comment) => {
         </p>
         <p>
           <i>
-            Created At: {comment.comment.created_at.split("T")[0]} || ,
+            Created At: {comment.comment.created_at.split("T")[0]} ||{" "}
             {comment.comment.created_at.split("T")[1].slice(0, -5)}
           </i>
         </p>

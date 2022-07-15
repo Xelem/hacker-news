@@ -225,6 +225,24 @@ button:hover {
     grid-gap: 20px;
   }
 
+  .details,
+  .comment-details {
+    display: block;
+  }
+
+  .comment-details p {
+    margin: 7px;
+  }
+
+  .comments h3 {
+    margin-top: 20px;
+    padding-top: 5px;
+  }
+
+  .title h1 {
+    margin: 15px 0 0 0;
+  }
+
   .footer {
     padding: 10px;
   }
